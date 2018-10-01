@@ -1,4 +1,4 @@
- ## clima-app
+ ## weather-app
 
 # Pre-requisitos
 - nodejs

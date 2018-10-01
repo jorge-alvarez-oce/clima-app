@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const apiKey = 'AIzaSyA-HXVa2jtkGfKtIJwisxgC46RaWqC1xuI';
 
-const getAddress = async(address) => {
+const getAddressAndCoordinates = async(address) => {
     let url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURI(address)}&key=${apiKey}`;
 
     let response = await axios.get(url)
@@ -22,5 +22,5 @@ const getAddress = async(address) => {
 }
 
 module.exports = {
-    getAddress
+    getAddressAndCoordinates
 }

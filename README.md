@@ -1,7 +1,7 @@
- ## weather-app
+# weather-app
 
-# Pre-requisitos
+## Pre-requisitos
 - nodejs
 
-# Instalación
+## Instalación
 `npm install`

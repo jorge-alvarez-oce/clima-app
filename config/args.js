@@ -1,6 +1,6 @@
 const args = require('yargs').options({
-    direction: {
-        alias: 'd',
+    address: {
+        alias: 'a',
         desc: 'Dirección de la ciudad para obtener el clima',
         demand: true
     }
